@@ -10,6 +10,13 @@ namespace CS_Step152
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n                                                        Math App\n=======================================================================================================================");
+            Console.WriteLine("Enter a number:");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            Math.Method1(userNum);
+            Math.Method2(userNum);
+            Math.Method3(userNum);
+            Console.ReadLine();
         }
     }
 }
